@@ -29,7 +29,8 @@
 // penalty grows with size.
 //
 // The entry is deterministic (pure arithmetic, no randomness, no network, no
-// model call) and runs in milliseconds per case.
+// model call) and runs in milliseconds per case. Rewritten in-window at the
+// competition open; parameters and logic unchanged from the verified build.
 //
 // Input/output contract (as the kit's starter, whose I/O this keeps):
 //   - read every <id>.in in the input directory (the grader runs one case at a
